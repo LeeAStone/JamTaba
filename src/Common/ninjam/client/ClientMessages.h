@@ -137,7 +137,7 @@ public:
     void printDebug(QDebug &dbg) const override;
 
 private:
-    ClientToServerChatMessage(const QString &comand, const QString &arg1, const QString &arg2, const QString &arg3, const QString &arg4);
+    ClientToServerChatMessage(const QString &command, const QString &arg1, const QString &arg2, const QString &arg3, const QString &arg4);
     QString command;
     QStringList arguments;
 };
